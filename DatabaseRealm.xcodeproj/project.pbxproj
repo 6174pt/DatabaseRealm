@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		558711862BEF8CD3006DCB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711852BEF8CD3006DCB29 /* AppDelegate.swift */; };
 		558711882BEF8CD3006DCB29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711872BEF8CD3006DCB29 /* SceneDelegate.swift */; };
-		5587118A2BEF8CD3006DCB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711892BEF8CD3006DCB29 /* ViewController.swift */; };
+		5587118A2BEF8CD3006DCB29 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711892BEF8CD3006DCB29 /* ItemViewController.swift */; };
 		5587118D2BEF8CD3006DCB29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5587118C2BEF8CD3006DCB29 /* Base */; };
 		5587118F2BEF8CD4006DCB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5587118E2BEF8CD4006DCB29 /* Assets.xcassets */; };
 		558711922BEF8CD4006DCB29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 558711912BEF8CD4006DCB29 /* Base */; };
@@ -19,13 +19,16 @@
 		558711A22BEF8FDD006DCB29 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711A02BEF8FDD006DCB29 /* ItemTableViewCell.swift */; };
 		558711A32BEF8FDD006DCB29 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558711A12BEF8FDD006DCB29 /* ItemTableViewCell.xib */; };
 		558711A52BEF9517006DCB29 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711A42BEF9517006DCB29 /* NewItemViewController.swift */; };
+		558711A72BEF985C006DCB29 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711A62BEF985C006DCB29 /* Category.swift */; };
+		558711A92BEF9A7B006DCB29 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711A82BEF9A7B006DCB29 /* CategoryViewController.swift */; };
+		558711AB2BEF9E83006DCB29 /* NewCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558711AA2BEF9E83006DCB29 /* NewCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		558711822BEF8CD3006DCB29 /* DatabaseRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558711852BEF8CD3006DCB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558711872BEF8CD3006DCB29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		558711892BEF8CD3006DCB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		558711892BEF8CD3006DCB29 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		5587118C2BEF8CD3006DCB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5587118E2BEF8CD4006DCB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558711912BEF8CD4006DCB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,9 @@
 		558711A02BEF8FDD006DCB29 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		558711A12BEF8FDD006DCB29 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		558711A42BEF9517006DCB29 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		558711A62BEF985C006DCB29 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		558711A82BEF9A7B006DCB29 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		558711AA2BEF9E83006DCB29 /* NewCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,7 @@
 			children = (
 				558711852BEF8CD3006DCB29 /* AppDelegate.swift */,
 				558711872BEF8CD3006DCB29 /* SceneDelegate.swift */,
-				558711892BEF8CD3006DCB29 /* ViewController.swift */,
+				558711892BEF8CD3006DCB29 /* ItemViewController.swift */,
 				5587118B2BEF8CD3006DCB29 /* Main.storyboard */,
 				5587118E2BEF8CD4006DCB29 /* Assets.xcassets */,
 				558711902BEF8CD4006DCB29 /* LaunchScreen.storyboard */,
@@ -79,6 +85,9 @@
 				558711A02BEF8FDD006DCB29 /* ItemTableViewCell.swift */,
 				558711A12BEF8FDD006DCB29 /* ItemTableViewCell.xib */,
 				558711A42BEF9517006DCB29 /* NewItemViewController.swift */,
+				558711A62BEF985C006DCB29 /* Category.swift */,
+				558711A82BEF9A7B006DCB29 /* CategoryViewController.swift */,
+				558711AA2BEF9E83006DCB29 /* NewCategoryViewController.swift */,
 			);
 			path = DatabaseRealm;
 			sourceTree = "<group>";
@@ -163,11 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5587119F2BEF8F0B006DCB29 /* ShoppingItem.swift in Sources */,
-				5587118A2BEF8CD3006DCB29 /* ViewController.swift in Sources */,
+				558711AB2BEF9E83006DCB29 /* NewCategoryViewController.swift in Sources */,
+				5587118A2BEF8CD3006DCB29 /* ItemViewController.swift in Sources */,
 				558711A52BEF9517006DCB29 /* NewItemViewController.swift in Sources */,
 				558711A22BEF8FDD006DCB29 /* ItemTableViewCell.swift in Sources */,
+				558711A92BEF9A7B006DCB29 /* CategoryViewController.swift in Sources */,
 				558711862BEF8CD3006DCB29 /* AppDelegate.swift in Sources */,
 				558711882BEF8CD3006DCB29 /* SceneDelegate.swift in Sources */,
+				558711A72BEF985C006DCB29 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
