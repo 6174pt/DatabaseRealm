@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewWillAppear(_ animated: Bool) {
         items = readItems()
         tableView.reloadData()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
